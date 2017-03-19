@@ -1,0 +1,24 @@
+#
+####### requirements.txt #######
+#
+###### Requirements with Version Specifiers ######
+lxml == 3.3.3
+# tweepy dependencies
+oauthlib == 1.1.2
+tweepy == 3.5.0
+CouchDB == 1.0.1
+nltk == 3.2.1
+beautifulsoup4 == 4.5.1
+facebook-sdk == 2.0.0
+boto == 2.42.0
+simplejson == 3.8.2
+jsonpickle == 0.9.3
+statsmodels == 0.6.1
+scikit-learn == 0.17.1
+# geocoder dependencies
+ratelim == 0.1.6
+click == 6.6
+geocoder == 1.17.4
+PyYAML == 3.12
+Flask == 0.11.1
+#

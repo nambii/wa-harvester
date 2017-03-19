@@ -1,0 +1,20 @@
+sudo apt-get update
+sudo apt-get -y install python3-pip
+sudo apt-get -y install libxml2 libxml2-dev libxslt1-dev libffi-dev python3-lxml
+
+# nltk
+sudo apt-get -y install python-nltk
+
+# sklearn
+sudo apt-get -y install python-dev python-setuptools python-numpy python-scipy libatlas-dev libatlas3gf-base
+#extras for python3
+sudo apt-get -y install python3-dev python3-setuptools python3-numpy python3-scipy
+
+sudo update-alternatives --set libblas.so.3 /usr/lib/atlas-base/atlas/libblas.so.3
+sudo update-alternatives --set liblapack.so.3 /usr/lib/atlas-base/atlas/liblapack.so.3
+sudo apt-get -y install python-matplotlib
+sudo apt-get -y install python3-matplotlib
+
+sudo pip3 install -r requirements.txt
+
+python3 -c "import nltk; nltk.download('punkt'); nltk.download('treebank'); packages =['wordnet','words', 'webtext']; nltk.download(packages); nltk.download('stopwords')"

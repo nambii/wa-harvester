@@ -1,0 +1,19 @@
+twitter:
+  OAuth:
+    consumer_key: CONSUMER_KEY
+    consumer_secret: CONSUMER_SECRET
+    access_token: ACCESS_TOKEN
+    access_token_secret: ACCESS_TOKEN_SECRET
+couchdb:
+  https: yes/no
+  ip_address: 0.0.0.0
+  port: "5984"
+  login: optional
+  password: optional
+nectar:
+  ec2_access_key: EC2_ACCESS_KEY
+  ec2_secret_key: EC2_SECRET_KEY
+  s3:
+    host: swift.rc.nectar.org.au
+    port: '8888'
+    public_url: PUBLIC_URL
